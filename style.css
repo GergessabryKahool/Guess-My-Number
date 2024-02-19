@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.between {
+  font-size: 14px;
+  color: white;
+}
+
+.btn {
+  background-color: white;
+  color: #007bff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+  color: white;
+}
+
+.number {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.left {
+  width: 40%;
+}
+
+.guess {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkk {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.check:hover {
+  background-color: #0069d9;
+  color: white;
+}
+
+.right {
+  width: 40%;
+}
+
+.message {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.label-score,
+.kabel-highscore {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.score,
+.highscore {
+  font-weight: bold;
+}
+
+.again {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.again:hover {
+  background-color: #001eff;
+  color: white;
+}
